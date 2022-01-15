@@ -69,7 +69,7 @@ void loop() {
         noTone(piezzoPin);
     }
 
-    /*if (humidity > 85){
+    if (humidity > 10000){
 
         digitalWrite(redPin, 1);
         tone(piezzoPin, 1000, 500);
@@ -78,15 +78,6 @@ void loop() {
         lcd.setCursor(0, 1);
         lcd.print("Humidity is too high");
         delay(1000);
-
-        lcd.clear();
-        lcd.print("Temp ");
-        lcd.print(temperature);
-        lcd.print(" C");
-        lcd.setCursor(0, 1);
-        lcd.print("Humidity ");
-        lcd.print(humidity);
-        lcd.print(" %");
-        delay(500);
-    }*/
+;
+    }
     }
